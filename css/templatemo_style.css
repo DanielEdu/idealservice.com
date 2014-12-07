@@ -1,0 +1,42 @@
+
+
+
+/* ==========================================================================
+    Services Styling
+   ========================================================================== */
+#services {
+  padding-top: 90px;
+  margin-top: -25px;
+}
+
+.service-item {
+  padding-bottom: 40px;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+}
+.service-item h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.service-item .service-icon {
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100px;
+  height: 113px;
+  display: block;
+}
+.service-item .service-icon.first {
+  background-image: url(../images/service-first.png);
+}
+.service-item .service-icon.second {
+  background-image: url(../images/service-second.png);
+}
+.service-item .service-icon.third {
+  background-image: url(../images/service-third.png);
+}
+.service-item .service-icon.fourth {
+  background-image: url(../images/service-fourth.png);
+}
