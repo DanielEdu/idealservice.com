@@ -24,19 +24,23 @@
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100px;
-  height: 113px;
+  width: 126px;
+  height: 128px;
   display: block;
 }
 .service-item .service-icon.first {
   background-image: url(../images/service-first.png);
+  background-size: cover;
 }
 .service-item .service-icon.second {
   background-image: url(../images/service-second.png);
+  background-size: cover;
 }
 .service-item .service-icon.third {
   background-image: url(../images/service-third.png);
+  background-size: cover;
 }
 .service-item .service-icon.fourth {
   background-image: url(../images/service-fourth.png);
+  background-size: cover;
 }
