@@ -5,8 +5,8 @@
     Services Styling
    ========================================================================== */
 #services {
-  padding-top: 90px;
-  margin-top: -25px;
+  padding-top: 60px;
+  margin-top: -10px;
 }
 
 .service-item {
@@ -44,3 +44,9 @@
   background-image: url(../images/service-fourth.png);
   background-size: cover;
 }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+background-color: #000;
+}
+
+
