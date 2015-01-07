@@ -284,7 +284,7 @@ body > section {
   background-color: #bdc3c7;
 }
 .wet-asphalt {
-  background-color: #100;
+  background-color: #FFF;
 }
 .wet-asphalt2{
   background-color: #34495E;
@@ -354,7 +354,7 @@ body > section {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 500px;
+  height: 450px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -731,8 +731,13 @@ ul.tag-cloud li {
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 4px;
-  color: #76797B;
+  color: #111;
+  padding: 7px 10px;
+  font-size: 1.1em;
 }
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: red;
+} 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
@@ -757,7 +762,7 @@ ul.tag-cloud li {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: rgba(0, 0, 0, 0.2);
+  /*background-color: rgba(0, 0, 0, 1);*/
 }
 .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
   border-radius: 0 0 3px 3px;
@@ -957,8 +962,7 @@ ul.rss li::before {
   content: "\f09e";
 }
 #footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
   color: #bdc3c7;
 }
 #footer a {

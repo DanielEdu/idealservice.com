@@ -5,7 +5,7 @@
     Services Styling
    ========================================================================== */
 #services {
-  padding-top: 60px;
+  padding-top: 30px;
   margin-top: -10px;
 }
 
@@ -24,8 +24,8 @@
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
-  width: 126px;
-  height: 128px;
+  width: 170px;
+  height: 160px;
   display: block;
 }
 .service-item .service-icon.first {
