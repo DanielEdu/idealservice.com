@@ -249,6 +249,7 @@ body > section {
 }
 .emerald {
   background-color: #D77F38;
+  margin-top: 72px;
 }
 .nephritis {
   background-color: #27ae60;
@@ -725,15 +726,15 @@ ul.tag-cloud li {
   color: #fff;
 }
 .navbar-inverse .navbar-nav {
-  margin-top: 20px;
+  padding: 0.5em;
 }
 .navbar-inverse .navbar-nav > li > a {
   padding-top: 7px;
   padding-bottom: 7px;
   border-radius: 4px;
-  color: #111;
-  padding: 7px 10px;
-  font-size: 1.1em;
+  color: #E8E8E8;
+  padding: 7px 12px;
+  font-size: 1.15em;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   color: red;
@@ -881,7 +882,7 @@ ul.tag-cloud li {
   margin-bottom: 100px;
 }
 .no-margin {
-  margin: 0;
+  margin: 65px 0 0 0;
   padding: 0;
 }
 .registration-form {
