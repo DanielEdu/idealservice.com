@@ -69,4 +69,6 @@ background-color: #E5E5E5;
   max-width: 975px;
   padding: 0.1em 0;
 }
-
+.pad{
+  padding: 0 0 115px 0;
+}
