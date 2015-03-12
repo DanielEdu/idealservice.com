@@ -903,7 +903,7 @@ ul.tag-cloud li {
   font-weight: 400;
 }
 .row > div {
-  margin-bottom: 2px;
+  margin-bottom: 40px;
 }
 ul.unstyled {
   list-style: none;
